@@ -18,7 +18,7 @@ pipeline{
         stage ('check war file') {
             steps {
                 echon 'checking generated war file'
-                sh 'ls -lh target/*.war
+                sh 'ls -lh target/*.war'
             }
         }
     }
