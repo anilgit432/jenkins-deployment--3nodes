@@ -17,12 +17,15 @@ pipeline{
         }
         stage ('check war file') {
             steps {
-                echon 'checking generated war file'
+                echo 'checking generated war file'
                 sh 'ls -lh target/*.war'
             }
         }
         stage ('Deploy to worker1') {
             steps {
                 echo 'Deploying application to worker 1'
+                sh 'sudo cp target/hello.war /var/lib/tomcat10/webapps/'
+            }
+        }
     }
 }
