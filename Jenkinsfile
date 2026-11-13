@@ -21,5 +21,8 @@ pipeline{
                 sh 'ls -lh target/*.war'
             }
         }
+        stage ('Deploy to worker1') {
+            steps {
+                echo 'Deploying application to worker 1'
     }
 }
