@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cake Paradise | Sweet Moments</title>
+    <title>Cake Paradise | Sweet Moments |Anil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
@@ -229,5 +229,5 @@
     <p>© 2026 Cake Paradise | Baked with Love ❤️</p>
 </footer>
 
-</body>Anil Anil Anil
+</body>
 </html>
